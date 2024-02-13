@@ -5,4 +5,4 @@ node.js ^16.14.0 || ^18.10.0
 
 1. npm install
 2. npm start (or ng serve)
-3. Go to http://localhost:4200/ 
+3. Go to http://localhost:4200/
