@@ -14,6 +14,8 @@ import {StyleComponent} from "./style/app-style.component";
 import {OutlineComponent} from "./outline/app-outline.component";
 import {DataService} from "./app-data.service";
 
+import * as GC  from '@mescius/spread-sheets'
+window["GC"] = GC
 
 @NgModule({
     imports: [BrowserModule, AppRoutingModule, SpreadSheetsModule, FormsModule],
